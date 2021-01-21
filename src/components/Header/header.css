@@ -1,0 +1,235 @@
+.sticky {
+	position: fixed!important;
+	top: 0;
+	width: 100%;	
+	z-index:9999;
+  }
+  .sticky-btn {
+	position: fixed!important;
+	top: 0;
+left: 45px;
+	width: initial;	
+	z-index:9999;
+  }
+
+  #navIcon{
+	  display:none;
+  }
+  .nav-item {
+	background: #252525;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+
+}
+
+
+.nav-item .nav-menu {
+	display: -webkit-inline-box;
+	display: -ms-inline-flexbox;
+	display: inline-flex;
+	position: relative;
+}
+.nav-item .responsive {
+	display: -webkit-inline-box;
+	display: -ms-inline-flexbox;
+	display: inline-flex;
+	position: relative;
+}
+
+
+.nav-item .nav-menu li {
+	list-style: none;
+	display: inline-block;
+	margin-left: -5px;
+	position: relative;
+}
+
+.nav-item .nav-menu li .active  {
+	background: #e7ab3c;
+}
+
+.nav-item .nav-menu li a {
+	font-size: 14px;
+	font-weight: 700;
+	display: block;
+	color: #ffffff;
+	border-right: 2px solid #3b3b3b;
+	text-transform: uppercase;
+	padding: 16px 30px 15px;
+	-webkit-transition: all 0.3s;
+	-o-transition: all 0.3s;
+	transition: all 0.3s;
+}
+
+.nav-item .nav-menu li:hover>a {
+	background: #e7ab3c;
+}
+
+
+@media only screen and (min-width: 1200px) and (max-width: 1920px) {
+	.inner-header .advanced-search .input-group button {
+		right: -14px;
+	}
+	.nav-item .nav-menu li a {
+		padding: 16px 45px 15px;
+	}
+}
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+	.inner-header .advanced-search .category-btn {
+		max-width: 36%;
+	}
+	.inner-header .advanced-search .input-group {
+		max-width: 64%;
+	}
+	.nav-item .nav-menu li a {
+		padding: 16px 26px 15px;
+	}
+	.inner-header .advanced-search .input-group button {
+		right: -7px;
+	}
+
+}
+@media only screen and (max-width: 991px) {
+  .inner-header .advanced-search .input-group button {
+		right: -8px;
+	}
+}
+
+  @media only screen and (min-width: 768px) and (max-width: 991px) {
+	.header-top .ht-right .login-panel {
+		padding-left: 10px;
+	}
+	.header-top .ht-right .top-social {
+		padding-right: 10px;
+	}
+	.header-top .ht-left .mail-service {
+		padding-right: 10px;
+	}
+	.header-top .ht-left .phone-service {
+		padding-left: 10px;
+	}
+	.header-top .ht-right .top-social a {
+		margin-left: 10px;
+	}
+	.inner-header .advanced-search .category-btn {
+		max-width: 40%;
+		padding-right: 25px;
+	}
+	.inner-header .advanced-search .input-group {
+		max-width: 60%;
+	}
+	.inner-header .nav-right li {
+		margin-left: 8px;
+	}
+	
+	.nav-item .nav-menu li a {
+		padding: 16px 10px 15px;
+	}
+	
+}
+@media only screen and (max-width: 767px) {
+	
+	
+	.header-top .ht-left,
+	.header-top .top-social {
+		display: none;
+	}
+	.header-top .ht-right .login-panel {
+		padding-top: 9px;
+		padding-bottom: 7px;
+	}
+	.header-top .ht-right .lan-selector {
+		margin-top: 5px;
+		margin-bottom: 5px;
+	}
+	.inner-header .advanced-search .category-btn {
+		display: none;
+	}
+	.inner-header .advanced-search .input-group {
+		max-width: 100%;
+	}
+	.inner-header {
+		padding: 0;
+	}
+	.inner-header .logo {
+		text-align: center;
+	}
+	.inner-header .nav-right {
+		text-align: left;
+	}
+	.inner-header .nav-right li:first-child {
+		margin-left: 0;
+	}
+
+	.nav-item {
+		background: transparent;
+	}
+	.nav-item .nav-menu {
+		display: none;
+	}
+	.nav-item .display {
+		display: block!important;
+		position: fixed!important;
+		top: 40px;
+		width: 90%;	
+		z-index:9999;
+
+	}
+	
+	#navIcon{
+		right: 0;
+		display:block;
+		position: sticky;
+		z-index: 99;
+		
+	}
+	
+	.inner-header .nav-right li.cart-icon .cart-hover {
+		left: -50px;
+	}
+	.nav-item .nav-menu li {
+		list-style: none;
+		display: block;
+		margin-left: -5px;
+		position: relative;
+		background: black;
+	}
+	
+	.nav-item .nav-menu li .active  {
+		background: #e7ab3c;
+	}
+	
+	.nav-item .nav-menu li a {
+		font-size: 11px;
+		font-weight: 700;
+		display: block;
+		color: #ffffff;
+		border-right: 2px solid #3b3b3b;
+		text-transform: uppercase;
+		padding: 12px 25px 12px;
+		-webkit-transition: all 0.3s;
+		-o-transition: all 0.3s;
+		transition: all 0.3s;
+	}
+	
+	.nav-item .nav-menu li:hover>a {
+		background: #e7ab3c;
+	}
+	
+	
+}
+@media only screen and (max-width: 479px) {
+	.inner-header .advanced-search .category-btn {
+		display: none;
+	}
+	.inner-header .advanced-search .input-group {
+		max-width: 100%;
+	}
+	.inner-header .nav-right li.cart-icon .cart-hover {
+		width: 270px;
+		padding: 20px;
+	}
+	
+}
+

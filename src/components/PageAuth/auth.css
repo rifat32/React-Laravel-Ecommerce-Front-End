@@ -1,0 +1,75 @@
+.register-login-section {
+	padding-top: 72px;
+	padding-bottom: 80px;
+}
+
+.register-form h2,
+.login-form h2 {
+	color: #252525;
+	font-weight: 700;
+	text-align: center;
+	margin-bottom: 35px;
+}
+
+.register-form form .group-input,
+.login-form form .group-input {
+	margin-bottom: 25px;
+}
+
+.register-form form .group-input label,
+.login-form form .group-input label {
+	display: block;
+	font-size: 18px;
+	color: #252525;
+	margin-bottom: 13px;
+}
+
+.register-form form .group-input input,
+.login-form form .group-input input {
+	border: 1px solid #ebebeb;
+	height: 50px;
+	width: 100%;
+	padding-left: 20px;
+	padding-right: 15px;
+}
+
+.register-form form .register-btn,
+.register-form form .login-btn,
+.login-form form .register-btn,
+.login-form form .login-btn {
+	width: 100%;
+	letter-spacing: 2px;
+	margin-top: 5px;
+}
+
+.register-form .switch-login,
+.login-form .switch-login {
+	text-align: center;
+	margin-top: 22px;
+}
+
+.register-form .switch-login .or-login,
+.login-form .switch-login .or-login {
+	color: #252525;
+	font-size: 14px;
+	letter-spacing: 2px;
+	text-transform: uppercase;
+	position: relative;
+}
+
+.register-form .switch-login .or-login:before,
+.login-form .switch-login .or-login:before {
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	height: 2px;
+	width: 100%;
+	background: #9f9f9f;
+	content: "";
+}
+
+.login-form .group-input.gi-check {
+	margin-bottom: 8px;
+}
+
+
